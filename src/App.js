@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useReducer } from "react";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import Switch from "./Switch.js";
 import Profile from "./profile";
+
 import {
   BrowserRouter as Router,
   Switch as SwitchRouter,
